@@ -1,0 +1,37 @@
+#checkersBoard{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+
+}
+
+.square{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+
+}
+
+.bg{
+    background-color: rgb(126, 125, 125);
+}
+
+.checker{
+    width: 45px;
+    height: 45px;
+    margin: 2.5px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px black;
+}
+
+.checker-i{
+    background-color: navy;
+}
+
+.checker-j{
+    background-color: black;
+    
+}
